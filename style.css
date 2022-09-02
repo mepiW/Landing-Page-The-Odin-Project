@@ -1,3 +1,27 @@
 body {
     font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1f2937;
+    color: white;
+}
+nav h1 {
+    cursor: pointer;
+}
+nav ul {
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    padding-top: 13px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover {
+    text-decoration: underline;
 }
