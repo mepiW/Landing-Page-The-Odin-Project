@@ -60,6 +60,7 @@ main {
     justify-content: center;
     align-items: center;
     height: 50vh;
+    margin-top: 25px;
 }
 main div {
     display: flex;
@@ -81,4 +82,25 @@ main div div div {
 }
 main div div p {
     color: #1f2937;
+}
+.quote {
+    background-color: grey;
+    height: 33vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 75px;
+}
+.quote p {
+    font-size: 30px;
+}
+footer {
+    background-color: #1f2937;
+    color: white;
+    font-size: 18px;
+    padding: 25px;
+    text-align: center;
 }
